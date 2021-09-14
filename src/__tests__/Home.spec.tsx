@@ -99,19 +99,17 @@ describe('Home', () => {
     });
 
     userEvent.click(sendRequestButton);
-
+    jest.advanceTimersToNextTimer();
     await waitFor(() => {
       expect(sendRequestButton).toHaveTextContent(/sending/i);
     });
 
     jest.advanceTimersToNextTimer();
-
     await waitFor(() => {
       expect(sendRequestButton).toHaveTextContent(/send/i);
     });
 
     jest.advanceTimersToNextTimer();
-
     expect(screen.getByText('This email address is already registered')).toBeInTheDocument();
   });
 
