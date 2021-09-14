@@ -30,4 +30,4 @@ yarn test
 - [x] Better error messages
 - [x] Add types
 - [x] Add unit tests
-- [ ] Make it look ✨ pretty ✨
+- [x] Make it look ✨ pretty ✨
