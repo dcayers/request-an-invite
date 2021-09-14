@@ -10,7 +10,7 @@ export const CardHeader = styled.div<SpaceProps>`
   ::after {
     content: ' ';
     position: absolute;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid ${({ theme }) => theme.colors.secondary};
     width: 35px;
     margin: 0 auto;
     left: 0;
@@ -28,7 +28,7 @@ export const CardBody = styled.div`
 export const Card = styled.div<HeightProps & WidthProps>`
   min-height: 100px;
   min-width: 300px;
-  background-color: white;
+  background-color: ${({ theme }) => theme.colors.white};
   border-radius: 3px;
   padding: 1rem;
   box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%), 0px 6px 10px 0px rgb(0 0 0 / 14%), 0px 1px 18px 0px rgb(0 0 0 / 12%);

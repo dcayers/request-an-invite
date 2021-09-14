@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
-import { space, SpaceProps } from 'styled-system';
+import { space, SpaceProps, width, WidthProps } from 'styled-system';
 
-export const Button = styled.button<SpaceProps>`
+export const Button = styled.button<SpaceProps & WidthProps>`
   border: none;
   margin: 0;
   padding: 0;
@@ -22,13 +22,16 @@ export const Button = styled.button<SpaceProps>`
     padding: 0;
   }
 
-  ${space}
+  ${space};
+  ${width};
 `;
 
 export const ButtonOutline = styled(Button)`
-  background-color: white;
+  color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.white};
   box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%), 0px 6px 10px 0px rgb(0 0 0 / 14%), 0px 1px 18px 0px rgb(0 0 0 / 12%);
   padding: 0.5rem 1rem;
+  font-weight: bolder;
 `;
 
 export const IconButton = styled(Button)`
@@ -43,7 +46,7 @@ export const IconButton = styled(Button)`
 
   :hover,
   :focus {
-    background-color: gray;
+    background-color: ${({ theme }) => theme.colors.secondary};
   }
 
   :focus {

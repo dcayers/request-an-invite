@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const Error = styled.p`
-  color: red !important;
+  color: ${({ theme }) => theme.colors.danger} !important;
   font-weight: bold;
   font-style: italic;
   padding: 0.25rem;

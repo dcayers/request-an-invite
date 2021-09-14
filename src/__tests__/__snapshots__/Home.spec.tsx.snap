@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should match snapshot 1`] = `
+.emotion-0 {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: 'header' 'main' 'footer';
+}
+
+.emotion-2 {
+  background-color: #FFFFFC;
+  box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%),0px 6px 10px 0px rgb(0 0 0 / 14%),0px 1px 18px 0px rgb(0 0 0 / 12%);
+  padding: 0 3rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('https://images.pexels.com/photos/1419923/pexels-photo-1419923.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 1rem;
+}
+
+.emotion-4>h2 {
+  font-size: 8vmin;
+  margin-bottom: 0;
+}
+
+.emotion-4>p {
+  font-size: 3vmin;
+}
+
+.emotion-4>h2,
+.emotion-4>p {
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .emotion-4>button {
+    font-size: 2vmin;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .emotion-4>h2 {
+    font-size: 10vmin;
+  }
+
+  .emotion-4>p {
+    font-size: 4vmin;
+  }
+}
+
+@media (max-width: 767px) {
+  .emotion-4>h2 {
+    font-size: 10vmin;
+  }
+
+  .emotion-4>p {
+    font-size: 4vmin;
+  }
+}
+
+@media (max-width: 480px) {
+  .emotion-4>h2 {
+    font-size: 10vmin;
+  }
+
+  .emotion-4>p {
+    font-size: 5vmin;
+  }
+}
+
+.emotion-6 {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  color: #214E34;
+  background-color: #FFFFFC;
+  box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%),0px 6px 10px 0px rgb(0 0 0 / 14%),0px 1px 18px 0px rgb(0 0 0 / 12%);
+  padding: 0.5rem 1rem;
+  font-weight: bolder;
+}
+
+.emotion-6::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.emotion-8 {
+  background-color: #FFFFFC;
+  box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%),0px 6px 10px 0px rgb(0 0 0 / 14%),0px 1px 18px 0px rgb(0 0 0 / 12%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.emotion-8 p {
+  margin: 0;
+  font-size: 18px;
+}
+
+<div>
+  <div
+    class="emotion-0 emotion-1"
+  >
+    <header
+      class="emotion-2 emotion-3"
+    >
+      <h1>
+        <span
+          class="primary"
+        >
+          Broccoli
+        </span>
+         
+        <small
+          class="secondary"
+        >
+          & Co.
+        </small>
+      </h1>
+    </header>
+    <main
+      class="emotion-4 emotion-5"
+    >
+      <h2>
+        A better way 
+        <br />
+         to enjoy every day.
+      </h2>
+      <p>
+        Be the first to know when we launch.
+      </p>
+      <button
+        class="emotion-6 emotion-7"
+      >
+        Request an invite
+      </button>
+    </main>
+    <footer
+      class="emotion-8 emotion-9"
+    >
+      <p>
+        Made with 
+        <svg
+          fill="#FF3A20"
+          height="16px"
+          viewBox="0 0 24 24"
+          width="24px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+          />
+        </svg>
+         in Melbourne.
+      </p>
+      <p>
+        <svg
+          enable-background="new 0 0 24 24"
+          fill="#000000"
+          height="16px"
+          viewBox="0 0 24 24"
+          width="24px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g>
+            <rect
+              fill="none"
+              height="24"
+              width="24"
+              x="0"
+            />
+          </g>
+          <g>
+            <g>
+              <g>
+                <path
+                  d="M11.88,9.14c1.28,0.06,1.61,1.15,1.63,1.66h1.79c-0.08-1.98-1.49-3.19-3.45-3.19C9.64,7.61,8,9,8,12.14 c0,1.94,0.93,4.24,3.84,4.24c2.22,0,3.41-1.65,3.44-2.95h-1.79c-0.03,0.59-0.45,1.38-1.63,1.44C10.55,14.83,10,13.81,10,12.14 C10,9.25,11.28,9.16,11.88,9.14z M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10S17.52,2,12,2z M12,20c-4.41,0-8-3.59-8-8 s3.59-8,8-8s8,3.59,8,8S16.41,20,12,20z"
+                />
+              </g>
+            </g>
+          </g>
+        </svg>
+         2021 Broccoli & Co. All rights reserved.
+      </p>
+    </footer>
+  </div>
+</div>
+`;
