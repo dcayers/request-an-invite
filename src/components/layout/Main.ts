@@ -41,6 +41,10 @@ export const Main = styled.main`
     > p {
       font-size: 4vmin;
     }
+
+    > button {
+      font-size: 3vmin;
+    }
   }
 
   /* Landscape phone to portrait tablet */

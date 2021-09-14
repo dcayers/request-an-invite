@@ -69,7 +69,7 @@ export default function GlobalStyles({ theme }) {
 
           input,
           button[type='submit'] {
-            font-size: 3vmin !important;
+            font-size: 2.5vmin !important;
           }
         }
 

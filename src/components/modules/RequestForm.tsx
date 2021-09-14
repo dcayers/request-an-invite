@@ -19,6 +19,7 @@ const FormField = styled(Field)`
     padding-left: 1rem;
     &::placeholder {
       transform: translateY(-10px);
+      font-size: 14px;
     }
   }
 `;
