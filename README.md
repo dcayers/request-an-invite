@@ -28,6 +28,6 @@ yarn test
 - [x] Show success screen
 - [x] Show server error state
 - [x] Better error messages
-- [ ] Add types
+- [x] Add types
 - [x] Add unit tests
 - [ ] Make it look ✨ pretty ✨

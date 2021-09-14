@@ -1,7 +1,7 @@
-import { useEffect } from 'react';
+import React from 'react';
 
-export const useClickOutside = (ref, onClickHandler) => {
-  useEffect(() => {
+export const useClickOutside = (ref: React.MutableRefObject<any>, onClickHandler: Function) => {
+  React.useEffect(() => {
     const eventListener = (e) => {
       if (!ref.current || ref.current.contains(e.target)) {
         return;
