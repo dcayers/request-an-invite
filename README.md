@@ -14,6 +14,14 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Running tests
+
+To see some super cool awesome test, run the following:
+
+```bash
+yarn test
+```
+
 ## TODO
 
 - [x] Clear form on modal close
