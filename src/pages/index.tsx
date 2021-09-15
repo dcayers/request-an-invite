@@ -60,8 +60,3 @@ export default function Home() {
     </Container>
   );
 }
-
-// Making this SSR in hopes that it deploys for now
-export async function getServerSideProps() {
-  return { props: {} };
-}
